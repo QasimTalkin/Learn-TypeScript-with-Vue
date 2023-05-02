@@ -306,3 +306,19 @@ function greet(name) {
 - `public` folder contains the static files.
 - `shims-vue.d.ts` file is used to tell TypeScript that .vue files contain TypeScript code.
 - `main.ts` file is the entry point of the application.
+- clean up the project by removing all the unnecessary files.
+
+## Design Decisions
+
+- as a course rating website, we need the user to feel that the website is fast, and welcoming so we will set the background color to `#f5f5f5` and the font to `Roboto`.
+
+```css
+body {
+  background-color: #f5f5f5;
+  font-family: Roboto;
+}
+```
+
+### Link to Vue Syntax - TypeScrip README
+
+- [Vue - TypeScript README](./vue-typescript.md)
